@@ -347,4 +347,18 @@ body main .contact form button:hover {
   body main .about .section1-1 #clicker {
     display: none;
   }
+  body main .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .gallery .center .gall .images {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .gallery .center .gall #hide {
+    display: none;
+  }
+  body main .gallery .center .bot {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

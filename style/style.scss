@@ -475,6 +475,27 @@ body{
           }
         }
       }
+
+      .gallery{
+        display: flex;
+        flex-direction: column;
+        
+        .center{
+          .gall{
+            .images{
+              display: flex;
+              flex-direction: column;
+            }
+
+            #hide{
+              display: none;
+            }
+          }
+          .bot{
+            display: none;
+          }
+        }
+      }
     }
   }
 }
